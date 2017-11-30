@@ -1,0 +1,56 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<title>The Future of Winneba Sacred Lagoon</title> 
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script> 
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' /> 
+	</head>
+	<body>
+		<nav id="menu"></nav>
+		<div id="map"></div>
+				    
+		<div class='map-overlay'>
+			<h2>The Future of Winneba Sacred Lagoon</h2>
+			<p>When traditional culture faces common global challenges</p>
+		</div>
+
+
+ 
+		<div class='desc'>
+			<h3>Description</h3>
+			<p>The  Effutu  culture  in Winneba, Ghana is  founded  on  a  rich  tradition  of  land  and  water  gods,  some  of  whom  were  accompanying  the  founding tribe as it made its way south. Other gods have been enshrined at specific sites in and around  Winneba. Taboos of everyday life were also established and while diminishing in power, continue to persist today in the everyday lives of the community. 
+
+			Interestingly, these ancient taboos reinforce the conservation approaches to the management of natural waterways and reinforce the mission of the modern Ramsar designation. However, urban growth as well as other environmental problems have been threatening this big sacred site in recent years.</p>
+
+
+
+
+			<p>
+
+				For more information, click <a href="https://www.researchgate.net/publication/282600119_Shoreline_change_and_sea_level_rise_at_the_Muni-Pomadze_coastal_wetland_Ramsar_site_Ghana">HERE</a> to learn.
+
+			</p>
+			<iframe src="https://shyrvp.github.io/rainfall/"
+   width="300" height="300" frameborder="0" allowfullscreen></iframe>
+		</div>	
+<div class='inner'>
+	    <h4>I--Urban Growth</h4>
+        <h4>II--Shoreline Position (PLEASE ZOOM IN)</h4>
+        <h4>III--Influence of Sea Level Rise (PLEASE ZOOM IN)</h4>
+        <h4>Year:<label id='high year'>1972</label></h4>
+        <input id='slider' type='range' min='1972' max='2056' step='42' value='1972' />
+    </div>
+
+		
+	<div class='legend'></div>	
+	<div class='modal'>
+		<div class='modal-title'></div>
+		<div class='modal-body'></div>
+	</div>
+	<div id='screen'></div>
+	<div class='map-overlay' id='legend'></div>
+	</body>
+	<script src="map.js"></script>
+</html>
